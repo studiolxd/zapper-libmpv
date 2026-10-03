@@ -1,0 +1,28 @@
+# Pinned source of every component inside Libmpv.framework, as MPVKit 0.41.0 and its prebuilt
+# dependencies (mpvkit/*-build) use them. Columns: name, git URL, tag, commit the tag must resolve to.
+# mpv and FFmpeg are compiled by build.sh from these tags (with MPVKit's patches). The rest arrive as
+# static archives built by the mpvkit/*-build repositories, whose scripts and patches are the build-* rows.
+mpv                    https://github.com/mpv-player/mpv                          v0.41.0                            41f6a645068483470267271e1d09966ca3b9f413
+FFmpeg                 https://github.com/FFmpeg/FFmpeg                           n8.0.1                             894da5ca7d742e4429ffb2af534fcda0103ef593
+gnutls                 https://github.com/gnutls/gnutls                           3.8.11                             b841c70e101311f5711ad9fd5d24d33684c2c76d
+nettle                 https://git.lysator.liu.se/nettle/nettle.git               nettle_3.10_release_20240616       b8c841dc3278dec0812365f02370b41ea9d4ddee
+gmp                    https://github.com/alisw/GMP                               v6.2.1                             2bbd52703e5af82509773264bfbd20ff8464804f
+libass                 https://github.com/libass/libass                           0.17.4                             bbb3c7f1570a4a021e52683f3fbdf74fe492ae84
+fribidi                https://github.com/fribidi/fribidi                         v1.0.12                            6428d8469e536bcbb6e12c7b79ba6659371c435a
+freetype               https://github.com/freetype/freetype                       VER-2-12-1                         e8ebfe988b5f57bfb9a3ecb13c70d9791bce9ecf
+harfbuzz               https://github.com/harfbuzz/harfbuzz                       8.1.1                              1d665c2b521512cdd56964138fc601debd1f1177
+libunibreak            https://github.com/adah1972/libunibreak                    libunibreak_6_1                    304585d8e2d63187507368d612c3d5fff1486368
+libplacebo             https://github.com/haasn/libplacebo                        v7.351.0                           3188549fba13bbdf3a5a98de2a38c2e71f04e21e
+uchardet               https://gitlab.freedesktop.org/uchardet/uchardet.git       v0.0.8                             ae6302a016088ad07177f86d417b20010053632b
+build-openssl          https://github.com/mpvkit/openssl-build                    3.3.5                              5634c15217b3a457f55923e5aa62c8c0f891c8d8
+build-gnutls           https://github.com/mpvkit/gnutls-build                     3.8.11                             e766d4e9a38b8360fc8bb61a523e7ab71b1c2303
+build-libass           https://github.com/mpvkit/libass-build                     0.17.4                             392f59146f1e043401126abb385678180f6ae8ef
+build-libplacebo       https://github.com/mpvkit/libplacebo-build                 7.351.0-2512                       d9ff92058a48ed16864c9fa450028d8569dfc22e
+build-lcms2            https://github.com/mpvkit/lcms2-build                      2.17.0                             9ffcc2ea5588d9f9bc32ed9350d2a6f7394a19c8
+build-libdovi          https://github.com/mpvkit/libdovi-build                    3.3.2                              c08af75cb3e8e8fe93f123c5dd81085fbc7ddb9e
+build-moltenvk         https://github.com/mpvkit/moltenvk-build                   1.4.1                              c8bdb96a7bb436e1b42a149d5c8588d99483ff17
+build-libshaderc       https://github.com/mpvkit/libshaderc-build                 2025.5.0                           ed375d782f39ea47d218bbf6bd4ef8ab9081a9d8
+build-libdav1d         https://github.com/mpvkit/libdav1d-build                   1.5.2-xcode                        d88140f9660e56d07bd3c2aa89e0e0dea7af0a95
+build-libuavs3d        https://github.com/mpvkit/libuavs3d-build                  1.2.1-xcode                        49c90b98698277373a144087dd0876474347de9e
+build-libuchardet      https://github.com/mpvkit/libuchardet-build                0.0.8-xcode                        153d8f6a9fbca73d1f6b61dbae89141e536e5680
+build-libluajit        https://github.com/mpvkit/libluajit-build                  2.1.0-xcode                        a88556210c1720317aab7f5f016801d153b6fd15
